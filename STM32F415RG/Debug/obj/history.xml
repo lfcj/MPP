@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F415RG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\workspace\MPP_WS1415\cmsis -I..\..\..\workspace\MPP_WS1415\MPP\CC1101 -I..\..\..\workspace\MPP_WS1415\CoOS\portable -I..\..\..\workspace\MPP_WS1415\MPP\TCA6416 -I..\..\..\workspace\MPP_WS1415 -I..\..\..\workspace -I..\..\..\workspace\MPP_WS1415\MPP\CC3000 -I..\..\..\workspace\MPP_WS1415\CoOS -I..\..\..\workspace\MPP_WS1415\cmsis_lib\include -I..\..\..\workspace\MPP_WS1415\cmsis_boot -I..\..\.. -I..\..\..\workspace\MPP_WS1415\MPP\BOARD -I..\..\..\workspace\MPP_WS1415\CoOS\kernel -I..\..\..\workspace\MPP_WS1415\MPP -I..\..\..\workspace\MPP_WS1415\cmsis_lib">
+      <target file="aufgabe.o" lastModified="14a528de50a">
+         <source file="..\..\..\aufgabe.c" lastModified="1490e316ac0"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="14a528dde37">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1461df44430"/>
+      </target>
+      <target file="misc.o" lastModified="14a528df59d">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1461df4a1f0"/>
+      </target>
+      <target file="led.o" lastModified="14a528de0d6">
+         <source file="..\..\..\MPP\BOARD\led.c" lastModified="145f49a2a65"/>
+      </target>
+      <target file="socket.o" lastModified="14a528dd6d7">
+         <source file="..\..\..\MPP\CC3000\socket.c" lastModified="142dc7b1478"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="14a528decb8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1461df3a020"/>
+      </target>
+      <target file="usart.o" lastModified="14a528df984">
+         <source file="..\..\..\MPP\BOARD\usart.c" lastModified="149e1477102"/>
+      </target>
+      <target file="stm32f4xx_dbgmcu.o" lastModified="14a528df907">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dbgmcu.c" lastModified="1461df4b190"/>
+      </target>
+      <target file="stm32f4xx_rng.o" lastModified="14a528df4e2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="1461df44c00"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="14a528ded34">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="1461df3fde0"/>
+      </target>
+      <target file="timer.o" lastModified="14a528ddcff">
+         <source file="..\..\..\CoOS\kernel\timer.c" lastModified="14637a5a0e0"/>
+      </target>
+      <target file="stm32f4xx_crc.o" lastModified="14a528de44f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="1461df39850"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="14a528de72c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1461df41d20"/>
+      </target>
+      <target file="stm32f4xx_cryp_tdes.o" lastModified="14a528df7de">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_tdes.c" lastModified="1461df49250"/>
+      </target>
+      <target file="TCA6416.o" lastModified="14a528df61a">
+         <source file="..\..\..\MPP\TCA6416\TCA6416.c" lastModified="1424c310b8f"/>
+      </target>
+      <target file="stm32f4xx_iwdg.o" lastModified="14a528de4ac">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_iwdg.c" lastModified="1461df3cf00"/>
+      </target>
+      <target file="os.o" lastModified="14a528dddba">
+         <source file="..\..\..\MPP\CC3000\os.c" lastModified="1432f6542d0"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="14a528dd947">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="1461df46370"/>
+      </target>
+      <target file="wlan.o" lastModified="14a528de7e7">
+         <source file="..\..\..\MPP\CC3000\wlan.c" lastModified="149c7f61d41"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="14a528dd735">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1461df4c130"/>
+      </target>
+      <target file="core.o" lastModified="14a528ddaae">
+         <source file="..\..\..\CoOS\kernel\core.c" lastModified="14637a53b50"/>
+      </target>
+      <target file="stm32f4xx_cryp_des.o" lastModified="14a528deaa5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_des.c" lastModified="1461df49250"/>
+      </target>
+      <target file="cc3000_hal.o" lastModified="14a528df427">
+         <source file="..\..\..\MPP\CC3000\cc3000_hal.c" lastModified="14599559530"/>
+      </target>
+      <target file="nvmem.o" lastModified="14a528df159">
+         <source file="..\..\..\MPP\CC3000\nvmem.c" lastModified="1432f6542d0"/>
+      </target>
+      <target file="kernelHeap.o" lastModified="14a528dd83e">
+         <source file="..\..\..\CoOS\kernel\kernelHeap.c" lastModified="14637a4d5c0"/>
+      </target>
+      <target file="i2c.o" lastModified="14a528dd9c4">
+         <source file="..\..\..\MPP\BOARD\i2c.c" lastModified="14603dfef36"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="14a528df3aa">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1461df3e670"/>
+      </target>
+      <target file="stm32f4xx_dcmi.o" lastModified="14a528de854">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="1461df482b0"/>
+      </target>
+      <target file="mm.o" lastModified="14a528de900">
+         <source file="..\..\..\CoOS\kernel\mm.c" lastModified="14637a71fb0"/>
+      </target>
+      <target file="stm32f4xx_pwr.o" lastModified="14a528dde94">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="1461df39850"/>
+      </target>
+      <target file="stm32f4xx_can.o" lastModified="14a528ddfec">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_can.c" lastModified="1461df47310"/>
+      </target>
+      <target file="rtc.o" lastModified="14a528ddf50">
+         <source file="..\..\..\MPP\BOARD\rtc.c" lastModified="14a38d37b02"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="14a528df723">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="1461df3c730"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="14a528df8a9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1461df41550"/>
+      </target>
+      <target file="stm32f4xx_wwdg.o" lastModified="14a528de133">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_wwdg.c" lastModified="1461df3d6d0"/>
+      </target>
+      <target file="task.o" lastModified="14a528de26b">
+         <source file="..\..\..\CoOS\kernel\task.c" lastModified="14637a5c020"/>
+      </target>
+      <target file="CC1101.o" lastModified="14a528dea38">
+         <source file="..\..\..\MPP\CC1101\CC1101.c" lastModified="14603dfedbf"/>
+      </target>
+      <target file="syscalls.o" lastModified="14a528dedf0">
+         <source file="..\..\..\cmsis_lib\source\syscalls.c" lastModified="13d820e15d0"/>
+      </target>
+      <target file="utility.o" lastModified="14a528ddd4d">
+         <source file="..\..\..\CoOS\kernel\utility.c" lastModified="14637a58970"/>
+      </target>
+      <target file="stm32f4xx_cryp.o" lastModified="14a528deb12">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp.c" lastModified="1461df49250"/>
+      </target>
+      <target file="sem.o" lastModified="14a528df678">
+         <source file="..\..\..\CoOS\kernel\sem.c" lastModified="14637a5e730"/>
+      </target>
+      <target file="netapp.o" lastModified="14a528dda60">
+         <source file="..\..\..\MPP\CC3000\netapp.c" lastModified="1432f6542d0"/>
+      </target>
+      <target file="event.o" lastModified="14a528dec4a">
+         <source file="..\..\..\CoOS\kernel\event.c" lastModified="14637a51c10"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="14a528de1fe">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1461df424f0"/>
+      </target>
+      <target file="stm32f4xx_hash.o" lastModified="14a528ddba8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash.c" lastModified="1461df45ba0"/>
+      </target>
+      <target file="patch.o" lastModified="14a528de3f1">
+         <source file="..\..\..\MPP\CC3000\patch.c" lastModified="145b25996f8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="14a528de2b9">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14628b31ef0"/>
+      </target>
+      <target file="mbox.o" lastModified="14a528de8a2">
+         <source file="..\..\..\CoOS\kernel\mbox.c" lastModified="14637a4b680"/>
+      </target>
+      <target file="serviceReq.o" lastModified="14a528de307">
+         <source file="..\..\..\CoOS\kernel\serviceReq.c" lastModified="14637a5d790"/>
+      </target>
+      <target file="hci.o" lastModified="14a528dd8da">
+         <source file="..\..\..\MPP\CC3000\hci.c" lastModified="1432f6542d0"/>
+      </target>
+      <target file="interrupts.o" lastModified="14a528ddc44">
+         <source file="..\..\..\MPP\BOARD\interrupts.c" lastModified="14a5243bec0"/>
+      </target>
+      <target file="stm32f4xx_hash_sha1.o" lastModified="14a528ddca1">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash_sha1.c" lastModified="1461df45ba0"/>
+      </target>
+      <target file="security.o" lastModified="14a528de99c">
+         <source file="..\..\..\MPP\CC3000\security.c" lastModified="1439a613b20"/>
+      </target>
+      <target file="init.o" lastModified="14a528de6a0">
+         <source file="..\..\..\MPP\BOARD\init.c" lastModified="1490e4d2080"/>
+      </target>
+      <target file="cc3000_common.o" lastModified="14a528de078">
+         <source file="..\..\..\MPP\CC3000\cc3000_common.c" lastModified="1432f653ee8"/>
+      </target>
+      <target file="ntp.o" lastModified="14a528df1f5">
+         <source file="..\..\..\MPP\CC3000\ntp.c" lastModified="14a4dd42a82"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="14a528df540">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1461df3bf60"/>
+      </target>
+      <target file="mutex.o" lastModified="14a528df050">
+         <source file="..\..\..\CoOS\kernel\mutex.c" lastModified="14637a71010"/>
+      </target>
+      <target file="stm32f4xx_hash_md5.o" lastModified="14a528de191">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash_md5.c" lastModified="1461df45ba0"/>
+      </target>
+      <target file="hook.o" lastModified="14a528df771">
+         <source file="..\..\..\CoOS\kernel\hook.c" lastModified="1490e414940"/>
+      </target>
+      <target file="flag.o" lastModified="14a528df0bd">
+         <source file="..\..\..\CoOS\kernel\flag.c" lastModified="14637a4fcd0"/>
+      </target>
+      <target file="port.o" lastModified="14a528def18">
+         <source file="..\..\..\CoOS\portable\GCC\port.c" lastModified="14637a7c3c0"/>
+      </target>
+      <target file="queue.o" lastModified="14a528deeca">
+         <source file="..\..\..\CoOS\kernel\queue.c" lastModified="14637a5fea0"/>
+      </target>
+      <target file="stm32f4xx_cryp_aes.o" lastModified="14a528ddb3a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_aes.c" lastModified="1461df49250"/>
+      </target>
+      <target file="stm32f4xx_fsmc.o" lastModified="14a528deb8f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="1461df43490"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="14a528ded92">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13fcdd3c800"/>
+      </target>
+      <target file="arch.o" lastModified="14a528df475">
+         <source file="..\..\..\CoOS\portable\arch.c" lastModified="148f46058e0"/>
+      </target>
+      <target file="spi.o" lastModified="14a528dd7e0">
+         <source file="..\..\..\MPP\CC3000\spi.c" lastModified="14720126fe8"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="14a528df32d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="1461df3dea0"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="14a528dee6c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1461df3f610"/>
+      </target>
+      <target file="time.o" lastModified="14a528debed">
+         <source file="..\..\..\CoOS\kernel\time.c" lastModified="14637a5b080"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="14a528de613">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1461df36970"/>
+      </target>
+      <target file="main.o" lastModified="14a528de587">
+         <source file="..\..\..\main.c" lastModified="14a528dc348"/>
+      </target>
+      <target file="evnt_handler.o" lastModified="14a528df2a1">
+         <source file="..\..\..\MPP\CC3000\evnt_handler.c" lastModified="147ab87af70"/>
+      </target>
+      <target file="CC3000.o" lastModified="14a528deff2">
+         <source file="..\..\..\MPP\CC3000\CC3000.c" lastModified="14a4dd43136"/>
+      </target>
+   </processor>
+</history>

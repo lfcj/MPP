@@ -1,0 +1,644 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\MPP_WS1415\cmsis /I..\..\..\workspace\MPP_WS1415\MPP\CC1101 /I..\..\..\workspace\MPP_WS1415\CoOS\portable /I..\..\..\workspace\MPP_WS1415\MPP\TCA6416 /I..\..\..\workspace\MPP_WS1415 /I..\..\..\workspace /I..\..\..\workspace\MPP_WS1415\MPP\CC3000 /I..\..\..\workspace\MPP_WS1415\CoOS /I..\..\..\workspace\MPP_WS1415\cmsis_lib\include /I..\..\..\workspace\MPP_WS1415\cmsis_boot /I..\..\.. /I..\..\..\workspace\MPP_WS1415\MPP\BOARD /I..\..\..\workspace\MPP_WS1415\CoOS\kernel /I..\..\..\workspace\MPP_WS1415\MPP /I..\..\..\workspace\MPP_WS1415\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="1461df3bf60">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsMM.h" lastModified="14637a69310">
+      </source>
+      <source file="..\..\..\MPP\BOARD\usart.h" lastModified="149e147ad5a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\usart.c" lastModified="149e1477102">
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="1461df43490">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\flag.c" lastModified="14637a4fcd0">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\mbox.c" lastModified="14637a4b680">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_tdes.c" lastModified="1461df49250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\CoOS\OsConfig.h" lastModified="148f46058e0">
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsTimer.h" lastModified="14637a60e40">
+      </source>
+      <source file="..\..\..\MPP\CC3000\spi.h" lastModified="145bd4f3d10">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="1461df3e670">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\spi.c" lastModified="147201273d0">
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\MPP\CC3000\cc3000_hal.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\core.c" lastModified="14637a53b50">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\time.c" lastModified="14637a5b080">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\queue.c" lastModified="14637a5fea0">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h" lastModified="1461df482b0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_aes.c" lastModified="1461df49250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\aufgabe.h" lastModified="1490e455080">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1461df3a020">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsFlag.h" lastModified="14637a6c1f0">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="1461df36970">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\interrupts.h" lastModified="14a5242a290">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\MPP\BOARD\led.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+         <include file="..\..\..\CoOS\portable\arch.h"/>
+         <include file="..\..\..\MPP\CC1101\CC1101.h"/>
+         <include file="..\..\..\MPP\CC3000\CC3000.h"/>
+      </source>
+      <source file="..\..\..\aufgabe.c" lastModified="1490e316ac0">
+         <include file="..\..\..\aufgabe.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="1461df41d20">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\interrupts.c" lastModified="14a5243bec0">
+         <include file="..\..\..\MPP\BOARD\interrupts.h"/>
+      </source>
+      <source file="..\..\..\CoOS\portable\GCC\port.c" lastModified="14637a7c3c0">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1461df3e670">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h" lastModified="1461df43490">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\TCA6416\TCA6416.h" lastModified="14603c4df25">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\MPP\BOARD\i2c.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+      </source>
+      <source file="..\..\..\MPP\TCA6416\TCA6416.c" lastModified="1424c310b8f">
+         <include file="..\..\..\MPP\TCA6416\TCA6416.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsCore.h" lastModified="14637a6f8a0">
+         <include file="..\..\..\CoOS\kernel\CoOS.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsTime.h" lastModified="14637a62d80">
+      </source>
+      <source file="..\..\..\MPP\CC3000\CC3000.h" lastModified="14a523d6c64">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\MPP\CC3000\cc3000_hal.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\host_driver_version.h"/>
+         <include file="..\..\..\MPP\CC3000\netapp.h"/>
+         <include file="..\..\..\MPP\CC3000\nvmem.h"/>
+         <include file="..\..\..\MPP\CC3000\os.h"/>
+         <include file="..\..\..\MPP\CC3000\security.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+         <include file="..\..\..\MPP\CC3000\wlan.h"/>
+         <include file="..\..\..\MPP\CC3000\patch.h"/>
+         <include file="..\..\..\MPP\BOARD\led.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dbgmcu.h" lastModified="1461df4b190">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\socket.h" lastModified="1474437a438">
+      </source>
+      <source file="..\..\..\MPP\CC3000\CC3000.c" lastModified="14a4dd43136">
+         <include file="..\..\..\MPP\CC3000\CC3000.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\socket.c" lastModified="142dc7b2030">
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+         <include file="..\..\..\MPP\CC3000\netapp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1461df36970">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\kernelHeap.c" lastModified="14637a4d5c0">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\wlan.h" lastModified="147201ce3b0">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\MPP\CC3000\CC3000.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1461df41d20">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\wlan.c" lastModified="149c7f62129">
+         <include file="..\..\..\MPP\CC3000\wlan.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\nvmem.h"/>
+         <include file="..\..\..\MPP\CC3000\security.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\patch.h" lastModified="149e147a4a0">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\MPP\CC3000\cc3000_hal.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\host_driver_version.h"/>
+         <include file="..\..\..\MPP\CC3000\netapp.h"/>
+         <include file="..\..\..\MPP\CC3000\nvmem.h"/>
+         <include file="..\..\..\MPP\CC3000\os.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+         <include file="..\..\..\MPP\CC3000\wlan.h"/>
+         <include file="..\..\..\MPP\CC3000\CC3000.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp_des.c" lastModified="1461df49250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsKernelHeap.h" lastModified="14637a6aa80">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="1461df3f610">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\patch.c" lastModified="145b25996f8">
+         <include file="..\..\..\MPP\CC3000\patch.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_wwdg.c" lastModified="1461df3d6d0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsMutex.h" lastModified="14637a68370">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="1461df3a020">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_can.h" lastModified="1461df47310">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\hci.h" lastModified="145a86a5c90">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\hci.c" lastModified="1432f6542d0">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+         <include file="..\..\..\MPP\CC3000\wlan.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash.c" lastModified="1461df45ba0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="1461df3fde0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1461df3f610">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\CoOS.h" lastModified="14637a552c0">
+         <include file="..\..\..\CoOS\OsConfig.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_pwr.h" lastModified="1461df39850">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="14a525d2b65">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\aufgabe.h"/>
+         <include file="..\..\..\MPP\BOARD\init.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+         <include file="..\..\..\MPP\BOARD\rtc.h"/>
+         <include file="..\..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\..\MPP\CC1101\CC1101.h"/>
+         <include file="..\..\..\MPP\CC3000\CC3000.h"/>
+      </source>
+      <source file="..\..\..\CoOS\portable\OsArch.h" lastModified="14637a78540">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1461df44430">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_can.c" lastModified="1461df47310">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_can.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="14a528dc348">
+         <include file="..\..\..\main.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h" lastModified="1461df3d6d0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsError.h" lastModified="14637a6e900">
+      </source>
+      <source file="..\..\..\MPP\CC3000\cc3000_common.h" lastModified="1432f654aa0">
+      </source>
+      <source file="..\..\..\MPP\CC3000\cc3000_common.c" lastModified="1432f653ee8">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\wlan.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash_md5.c" lastModified="1461df45ba0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\event.c" lastModified="14637a51c10">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h" lastModified="1461df44c00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_cryp.c" lastModified="1461df49250">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_pwr.c" lastModified="1461df39850">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h" lastModified="1461df45ba0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\led.h" lastModified="14603c5108d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="1461df36d58">
+      </source>
+      <source file="..\..\..\MPP\BOARD\led.c" lastModified="145f49a2a65">
+         <include file="..\..\..\MPP\BOARD\led.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\host_driver_version.h" lastModified="1432f6542d0">
+      </source>
+      <source file="..\..\..\MPP\CC3000\netapp.h" lastModified="1432f6542d0">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="14628b31ef0">
+      </source>
+      <source file="..\..\..\MPP\CC3000\netapp.c" lastModified="1432f6546b8">
+         <include file="..\..\..\MPP\CC3000\netapp.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+         <include file="..\..\..\MPP\CC3000\nvmem.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\serviceReq.c" lastModified="14637a5d790">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\rtc.h" lastModified="14a523ff93c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+         <include file="..\..\..\MPP\BOARD\led.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+         <include file="..\..\..\MPP\CC3000\ntp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="1461df44c00">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\task.c" lastModified="14637a5c020">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\rtc.c" lastModified="14a38d37b02">
+         <include file="..\..\..\MPP\BOARD\rtc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\timer.c" lastModified="14637a5a0e0">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h" lastModified="1461df39850">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="1461df3dea0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\nvmem.h" lastModified="142bde2d1e0">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="1461df46370">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1461df4c130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsQueue.h" lastModified="14637a66430">
+      </source>
+      <source file="..\..\..\MPP\CC3000\nvmem.c" lastModified="1432f654aa0">
+         <include file="..\..\..\MPP\CC3000\nvmem.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="13fcdd1f728">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="1461df424f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h" lastModified="1461df49250">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_iwdg.c" lastModified="1461df3cf00">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\evnt_handler.h" lastModified="147201abce8">
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\wlan.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\hook.c" lastModified="1490e414940">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\init.h" lastModified="1490e4ddc00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\MPP\BOARD\init.h"/>
+         <include file="..\..\..\MPP\BOARD\interrupts.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h" lastModified="1461df3fde0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\evnt_handler.c" lastModified="147ab87b358">
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\MPP\CC3000\hci.h"/>
+         <include file="..\..\..\MPP\CC3000\evnt_handler.h"/>
+         <include file="..\..\..\MPP\CC3000\wlan.h"/>
+         <include file="..\..\..\MPP\CC3000\socket.h"/>
+         <include file="..\..\..\MPP\CC3000\netapp.h"/>
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\init.c" lastModified="1490e4d2080">
+         <include file="..\..\..\MPP\BOARD\init.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsServiceReq.h" lastModified="14637a65490">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_hash_sha1.c" lastModified="1461df45ba0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13dc9d65620">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_can.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dbgmcu.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_flash.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_hash.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rng.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1461df4a1f0">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\coocox.h" lastModified="14637a56a30">
+         <include file="..\..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\..\CoOS\portable\OsArch.h"/>
+         <include file="..\..\..\CoOS\kernel\OsCore.h"/>
+         <include file="..\..\..\CoOS\kernel\OsTask.h"/>
+         <include file="..\..\..\CoOS\kernel\OsServiceReq.h"/>
+         <include file="..\..\..\CoOS\kernel\OsError.h"/>
+         <include file="..\..\..\CoOS\kernel\OsTime.h"/>
+         <include file="..\..\..\CoOS\kernel\OsTimer.h"/>
+         <include file="..\..\..\CoOS\kernel\OsKernelHeap.h"/>
+         <include file="..\..\..\CoOS\kernel\OsMM.h"/>
+         <include file="..\..\..\CoOS\kernel\OsEvent.h"/>
+         <include file="..\..\..\CoOS\kernel\OsMutex.h"/>
+         <include file="..\..\..\CoOS\kernel\OsQueue.h"/>
+         <include file="..\..\..\CoOS\kernel\OsFlag.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsTask.h" lastModified="14637a63d20">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_crc.c" lastModified="1461df39850">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_crc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="1461df3dea0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\CoOS\portable\arch.h" lastModified="1461e7e1d40">
+      </source>
+      <source file="..\..\..\MPP\CC3000\cc3000_hal.h" lastModified="1432f6542d0">
+      </source>
+      <source file="..\..\..\CoOS\portable\arch.c" lastModified="148f46058e0">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\cc3000_hal.c" lastModified="14599559530">
+         <include file="..\..\..\MPP\CC3000\spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\MPP\CC3000\cc3000_common.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\os.h" lastModified="1432f6546b8">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h" lastModified="1461df44430">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1461df424f0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\ntp.h" lastModified="14a4dd42fb5">
+         <include file="..\..\..\MPP\CC3000\CC3000.h"/>
+         <include file="..\..\..\MPP\BOARD\led.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+         <include file="..\..\..\MPP\BOARD\rtc.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\os.c" lastModified="1432f654e88">
+         <include file="..\..\..\MPP\CC3000\os.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13d820d98d0">
+      </source>
+      <source file="..\..\..\MPP\CC3000\ntp.c" lastModified="14a4dd42a82">
+         <include file="..\..\..\MPP\CC3000\ntp.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="1461df41550">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="1461df46370">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13fcdd3c800">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="1461df36d58">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1461df3bf60">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h" lastModified="1461df3c730">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC1101\CC1101.h" lastModified="14a52486776">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_usart.h"/>
+         <include file="..\..\..\MPP\BOARD\led.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\i2c.h" lastModified="14603c5188c">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\MPP\BOARD\usart.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\sem.c" lastModified="14637a5e730">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_iwdg.h" lastModified="1461df3cf00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC1101\CC1101.c" lastModified="14603dfedbf">
+         <include file="..\..\..\MPP\CC1101\CC1101.h"/>
+      </source>
+      <source file="..\..\..\MPP\BOARD\i2c.c" lastModified="14603dfef36">
+         <include file="..\..\..\MPP\BOARD\i2c.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\mutex.c" lastModified="14637a71010">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\syscalls.c" lastModified="13d820e2570">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="1461df4a1f0">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1461df41550">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="1461df4c130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\mm.c" lastModified="14637a71fb0">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\utility.c" lastModified="14637a58970">
+         <include file="..\..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\security.h" lastModified="143966f7ef0">
+         <include file="..\..\..\MPP\CC3000\nvmem.h"/>
+      </source>
+      <source file="..\..\..\MPP\CC3000\security.c" lastModified="1439a613b20">
+         <include file="..\..\..\MPP\CC3000\security.h"/>
+      </source>
+      <source file="..\..\..\CoOS\kernel\OsEvent.h" lastModified="14637a6d190">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="1461df36d58">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="1461df3c730">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dcmi.c" lastModified="1461df482b0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="1461df36d58">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dbgmcu.c" lastModified="1461df4b190">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dbgmcu.h"/>
+      </source>
+   </includePath>
+</dependencies>
